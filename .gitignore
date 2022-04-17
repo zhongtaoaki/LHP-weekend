@@ -20,7 +20,7 @@ target
 # Build
 out
 build
-# bin
+bin
 
 # Other
 *.log
