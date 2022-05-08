@@ -27,13 +27,15 @@ public class MethodDemo {
 
         Cat cat1 = new Cat();
         cat1.bite();
-        System.out.println("这只猫的年龄是：" + cat1.age);
-        System.out.println("这只猫的品种是：" + cat1.kind);
+        System.out.println("cat1的年龄是：" + cat1.age);
+        System.out.println("cat1的品种是：" + cat1.kind);
 
         Cat cat2 = new Cat(2);
         System.out.println("cat2的年龄是：" + cat2.age);
 
         Cat cat3 = new Cat(3,"America Shortcut");
+        System.out.println("cat3的年龄是：" + cat3.age);
+        System.out.println("cat3的品种是：" + cat3.kind);
     }
 }
 
@@ -49,8 +51,12 @@ class Cat {
         this.age = age;
     }
 
+    Cat(int age , String kind){
+        this.age = age;
+        this.kind = kind;
+    }
+
     void bite() {
         System.out.println("Meow,Meow");
     }
-
 }
