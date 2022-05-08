@@ -11,30 +11,3 @@ public class Test {
     }
 }
 
-class Add implements Token {
-    @Override
-    public int calculate(int a, int b) {
-        return a + b;
-    }
-}
-
-class Sub implements Token {
-    @Override
-    public int calculate(int a, int b) {
-        return a - b;
-    }
-}
-
-class Multi implements Token {
-    @Override
-    public int calculate(int a, int b) {
-        return a * b;
-    }
-}
-
-class Div implements Token {
-    @Override
-    public int calculate(int a, int b) {
-        return a / b;
-    }
-}
