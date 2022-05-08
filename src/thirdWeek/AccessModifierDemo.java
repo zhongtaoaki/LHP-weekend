@@ -15,10 +15,8 @@ public class AccessModifierDemo {
 
     public static void main(String[] args) {
 
-        int i = 0;
-
-        Animal animal = new Animal();
-        animal.setAge(2);
+        Animal animal = new Animal(2);
+        // animal.setAge(2);
 
         System.out.println(animal.getAge());
     }
@@ -28,12 +26,15 @@ class Animal {
 
     private int age;
 
-    public void setAge(int age) {
-        this.age = age + 1;
+    public Animal(int age) {
+        this.age = age;
     }
+
+    // public void setAge(int age) {
+    // this.age = age;
+    // }
 
     public int getAge() {
-        return this.age * 2;
+        return this.age;
     }
-
 }
