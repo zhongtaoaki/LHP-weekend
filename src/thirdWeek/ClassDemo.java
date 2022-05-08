@@ -15,7 +15,6 @@ package thirdWeek;
  * 变量: 属性
  * 类的属性的声明: 访问修饰符 数据类型 变量名;
  * 
- * 
  * 类的使用
  * 在类内使用
  * 类的使用需要用到对象Object
@@ -46,4 +45,6 @@ class Human {
     int age;
     String name;
     boolean gender;
+
+
 }
