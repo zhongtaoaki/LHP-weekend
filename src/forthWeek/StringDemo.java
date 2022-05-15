@@ -4,13 +4,21 @@ public class StringDemo extends Object {
 
     public static void main(String[] args) {
 
-        Student s1 = new Student(1, "satou", 90);
-        System.out.println(s1);
-
         Student[] students = new Student[5];
-        //90 ,92, 90, 60, 60
-        for (Student student : students) {
-         
+        students[0] = new Student(1, "satou", 90);
+        students[1] = new Student(2, "suzuki", 92);
+        students[2] = new Student(3, "tanaka", 90);
+        students[3] = new Student(4, "kojima", 60);
+        students[4] = new Student(5, "nomura", 60);
+
+        // 90 ,92, 90, 60, 60
+        for (int i = 0; i < students.length - 1; i++) {
+            for (int j = 1; j < students.length - i; j++) {
+                if (students[i].equals(students[i + j])) {
+                    System.out.println(students[i]);
+                    System.out.println(students[i + j]);
+                }
+            }
         }
     }
 }
@@ -34,7 +42,10 @@ class Student {
 
     @Override
     public boolean equals(Object obj) {
-        // TODO Auto-generated method stub
-        return super.equals(obj);
+
+        Student other = (Student) obj;
+
+        return other.grade == this.grade;
     }
+
 }
