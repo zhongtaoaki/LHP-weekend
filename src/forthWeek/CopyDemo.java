@@ -1,5 +1,7 @@
 package forthWeek;
 
+import java.util.Stack;
+
 public class CopyDemo {
 
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -25,7 +27,6 @@ public class CopyDemo {
         System.out.println(array2[0]);
         System.out.println(array3[0]);
 
-     
 
     }
 
