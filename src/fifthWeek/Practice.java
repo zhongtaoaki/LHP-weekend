@@ -10,6 +10,7 @@ public class Practice {
         countries[3] = new Country("UK", "London");
         for (Country country : countries) {
             System.out.println(country);
+            //System.out.println(country.toString());
         }
         // China: Beijing
         // Japan: Tokyo
