@@ -17,7 +17,13 @@ public class MapPractice {
 
         for (char c : chars) {
             if (map.containsKey(c)) {
+
+                // int count = map.get(c);
+                // count++;
+                // map.put(c, count);
+
                 map.put(c, map.get(c) + 1);
+                
             } else {
                 map.put(c, 1);
             }
