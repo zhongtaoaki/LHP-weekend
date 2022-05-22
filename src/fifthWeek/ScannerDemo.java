@@ -12,9 +12,9 @@ public class ScannerDemo {
 
         for (int k = 0; k < countries.length; k++) {
             System.out.println("请输入一个国家");
-            String i = sc.nextLine();
+            String i = sc.next();
             System.out.println("请再输入这个国家的首都");
-            String j = sc.nextLine();
+            String j = sc.next();
 
             Country country = new Country(i, j);
             countries[k] = country;
