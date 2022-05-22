@@ -3,23 +3,27 @@ package fifthWeek;
 import java.util.Scanner;
 
 public class ScannerDemo {
-    
 
     public static void main(String[] args) {
-        
+
         Scanner sc = new Scanner(System.in);
-        System.out.println("请输入一个底数");
-        int i = sc.nextInt();
-        System.out.println("请再输入一个指数");
-        int j = sc.nextInt();
-        //String s = sc.nextLine();
 
-        System.out.println(Math.pow(i, j));
+        Country[] countries = new Country[4];
 
-        //System.out.println(s);
+        for (int k = 0; k < countries.length; k++) {
+            System.out.println("请输入一个国家");
+            String i = sc.nextLine();
+            System.out.println("请再输入这个国家的首都");
+            String j = sc.nextLine();
+
+            Country country = new Country(i, j);
+            countries[k] = country;
+        }
+
+        for (Country country : countries) {
+            System.out.println(country);
+        }
 
         sc.close();
-
     }
-
 }
