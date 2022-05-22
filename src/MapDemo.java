@@ -1,6 +1,8 @@
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+import java.util.Map.Entry;
 
 /**
  * Map实现了映射的数据结构
@@ -16,26 +18,37 @@ import java.util.Set;
  * 
  */
 public class MapDemo {
-    
+
     public static void main(String[] args) {
-        
-        Map<Integer,String> map = new HashMap<>();
+
+        Map<Integer, String> map = new HashMap<>();
         map.put(1, "satou");
         map.put(2, "suzuki");
         map.put(3, "tanaka");
 
-        Set<Integer> keys = map.keySet();
+        // for (Integer key : map.keySet()) {
+        // System.out.println(key + ": " + map.get(key));
+        // }
 
-        for (Integer key : keys) {
-            System.out.println(map.get(key));
+        // System.out.println(map);
+
+        // for (Entry<Integer, String> entry : map.entrySet()) {
+        // System.out.println(entry.getKey()+": "+entry.getValue());
+        // }
+
+        // Set<Integer> keys = map.keySet();
+        // Iterator iterator = keys.iterator();
+
+        // while (iterator.hasNext()) {
+        //     Integer i = (Integer) iterator.next();
+        //     System.out.println(i + ": " + map.get(i));
+        // }
+
+        Set<Entry<Integer, String>> entries = map.entrySet();
+        Iterator<Entry<Integer, String>> iterator = entries.iterator();
+        while (iterator.hasNext()) {
+            Entry<Integer, String> i = (Entry<Integer, String>) iterator.next();
+            System.out.println(i.getKey() + ": " + i.getValue());
         }
-
-
-        // China: Beijing
-        // Japan: Tokyo
-        // USA: Washington DC
-        // UK: London
-        
-
     }
 }
