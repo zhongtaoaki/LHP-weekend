@@ -6,8 +6,9 @@ public class MathDemo {
         
         int x = 10;
         int y = 20;
+        double z = 11.0;
 
-        System.out.println(Math.max(x, y));
+        System.out.println(Math.max(x, z));
 
         System.out.println(Math.abs(-10));
         System.out.println(Math.floor(10.5));
