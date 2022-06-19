@@ -7,7 +7,7 @@
 - [马宇航](src/ma/homepage.html)
 - [姜聪颖](src/jiang/first.html)
 - [缪子捷](src/miao/HomePage.html)
-- [吕晏萱](src/lv/about.html)
+- [吕晏萱](src/lv/class.html)
 - [于再浩](src/yu/page/homePage.html)
 - [宋雨芯](src/song/mainpage.html)
 - [王洋](src/wangyang/mynet.html)
