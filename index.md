@@ -12,6 +12,6 @@
 - [宋雨芯](src/song/mainpage.html)
 - [王洋](src/wangyang/mynet.html)
 - [汪雪](src/wangxue/hello.html)
-- [王聪](src/wangcong/hello.html)
+- [王聪](src/wangcong/myBlogHP.html)
 - [李源](src/li/hi.html)
 - [苑](src/yuan/boke.html)
