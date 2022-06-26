@@ -2,6 +2,7 @@
 
 ### 个人主页
 
+- [aki](src/aki/hello.html)
 - [荆健耘](src/jin/Testhtml/Aboutme.html)
 - [兰宗建](src/lanzongjian/myHomepage0.html)
 - [马宇航](src/ma/myblock.html)

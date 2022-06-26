@@ -1,0 +1,10 @@
+body {
+    background-image: url(background.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+body {
+    padding: 30px;
+    font-family: 'Righteous', cursive;
+}
