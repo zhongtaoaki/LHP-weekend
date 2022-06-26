@@ -1,0 +1,43 @@
+li{
+    list-style: none;
+    float: right;
+    padding: 30px;
+    font-size: 20;
+    flex: 20px;
+   position: relative;
+
+}
+
+
+
+
+h1{ background-color: rgb(255, 182, 182);
+    color: rgb(63, 63, 63);
+    border: 10px  solid rgb(255, 182, 182) 
+     
+      
+}
+body{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    background-size: auto;
+    background-image:url(jk.jpeg) ;
+    
+}
+
+#gh{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+.ik{
+  margin: 20px;
+ 
+  padding: 100px;
+  position: absolute;
+  
+  
+  bottom: 0;
+
+}
