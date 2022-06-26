@@ -1,0 +1,46 @@
+#head1 {
+    margin: 20px 10px 10px 10px;
+    border-bottom: 2px black solid;
+    color: rgb(44, 66, 121);
+    text-align: left;
+    font-size: 15px;
+    width: fit-content;
+}
+#nav1 {
+    margin: 20px 10px 10px 10px;
+    color: rgb(44, 66, 121);
+    background-color: yellowgreen;
+    border: 2px;
+    float: left;
+    clear: both;
+}
+#label1{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 2px;
+    color: saddlebrown;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#myq {
+    color: yellowgreen;
+}
+
+#float1 {
+    border: 2pt solid;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    width: auto;
+    float: left;
+}
+
+#float2 {
+    float: right;
+}
+
+table{
+    clear: both;
+}

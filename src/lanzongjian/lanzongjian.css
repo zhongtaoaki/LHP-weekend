@@ -1,0 +1,79 @@
+#myh1 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    border: 10px groove rgb(50, 205, 182);
+    border-radius: 10%;
+    margin: 20px;
+    padding: 10px;
+    color: blue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body {
+    padding: 25px;
+    background-image: url("d.gif");
+    opacity: 5;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#div1 {
+    border: dotted rgb(79, 154, 219);
+    margin: auto;
+    padding-left: 20px;
+}
+
+
+#mh2 {
+    font-family: 'Noto Serif SC', serif;
+
+}
+
+#table {
+    text-align: center;
+    width: 1000px;
+    height: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    left: 5px;
+
+}
+
+a:visited {
+    color: red;
+}
+
+#return {
+    bottom: auto;
+}
+
+#interest {
+    border: 20px medium green;
+    border-radius: 10px;
+
+}
+
+#h {
+    border: 2% solid red;
+    margin: auto;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+#hh {
+    color: rgb(139, 0, 0);
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5%;
+    float: right;
+ 
+
+}
+
+img {
+    vertical-align: auto;
+    opacity: 0.7;
+}

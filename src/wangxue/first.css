@@ -1,0 +1,18 @@
+body{
+    background-image:url(pic4.JPG);
+    background-size:cover;
+    font-family: 'Potta One', cursive;
+}
+
+
+#myp9{
+    position: relative;
+    left: 260px;
+    border:solid 5xp;
+    font-size:10vh;
+
+}
+
+a:visited{
+    color: rgb(221, 233, 229);
+}

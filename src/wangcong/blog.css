@@ -1,0 +1,44 @@
+#title {
+
+    color: ghostwhite;
+    font-size: x-large;
+    text-align: right;
+
+}
+
+#subtitle {
+    color: ghostwhite;
+    font-size: large;
+    text-align: right;
+
+}
+
+body {
+    background-image: url(pics\ src/b1.png);
+    background-size: cover;
+    padding: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Orbitron', sans-serif;
+}
+
+a:link{
+    color: ghostwhite;
+}
+a:visited{
+    color: black;
+}
+#icon{
+    size: 50%;
+    border: solid 2px black;
+    
+} 
+div{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+div2{
+    text-align: center;
+}

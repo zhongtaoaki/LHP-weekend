@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.topimg {
+    top: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(53, 72, 155);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #fd7e35;
+}
+
+.plana {
+    background-color: #879ee9;
+    color: white;
+    margin: 35px;
+    padding: 35px;
+    margin-left: 20%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+.planb {
+    background-color: #879ee9;
+    color: white;
+    margin: 35px;
+    padding: 35px;
+    margin-left: 35%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(53, 72, 155);
+    color: white;
+    text-align: center;
+    padding: 3px;
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.topimg {
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(53, 72, 155);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #fd7e35;
+}
+
+div {
+  margin: auto;
+  padding-left: 25%;
+  padding-right: 20%;
+}
+
+.footer {
+  background-color: rgb(53, 72, 155);
+  color: white;
+  text-align: center;
+  padding: 3px;
+}

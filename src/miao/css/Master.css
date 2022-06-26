@@ -1,0 +1,52 @@
+body {
+    background-image: url(../media/MasterBackGround.JPG);
+    background-size: 100%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    /* text-align: center; */
+}
+
+
+
+#left_menu {
+    background-color:rgba(128, 128, 128, 0.5);
+    width: 29%;
+    float: left;
+    opacity: 0.7;
+    font-size: x-large;
+    font-weight :bolder;
+    border: 3px solid;
+    /* text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em; */
+    border-radius: 25px;
+}
+
+#left_menu ul li{
+    line-height: 40px;
+}
+
+
+#circle_square{
+    height:100px;
+    width:100px;
+    margin : 20px;
+}
+
+#circle_square img{
+    height:100% ;
+    border-radius:50%;
+
+}
+
+#content {
+    background-color:rgba(128, 128, 128, 0.5);
+    /* height: 600px; */
+    width: 69%;
+    float: right;
+    border: 3px solid;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+#content h1{
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}

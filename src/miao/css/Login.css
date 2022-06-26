@@ -1,0 +1,17 @@
+body {
+    background-image: url(../media/Working.JPG);
+    background-size: 100%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    /* text-align: center; */
+}
+
+#container {
+    background-color:rgba(128, 128, 128, 0.5);
+    height: 800px;
+    width: 100%;
+    float: right;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}

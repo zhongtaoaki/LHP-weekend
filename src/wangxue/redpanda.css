@@ -1,0 +1,50 @@
+#myp4{
+    color: rgb(137, 160, 37);
+    background-color: rgba(184, 232, 234,0.5);
+    border-style:outset;
+    border-width:4px;
+    border-radius:5px;
+    border-color:rgb(158, 160, 37);
+    }
+
+    #myp5{
+        color: rgb(246, 178, 90);
+        background-color: rgba(184,232,234,0.5);
+        border-style:outset;
+        border-width:4px;
+        border-radius:5px;
+        border-color:rgb(244, 218, 188);
+        }
+
+
+
+    #myp6{
+        color: rgb(238, 139, 156);
+        background-color: rgba(184, 232, 234,0.5);
+        border-style:outset;
+        border-width:4px;
+        border-radius:5px;
+        border-color:rgb(233, 193, 199);
+        }
+
+    body{
+        padding:40px;
+        text-align: center;
+        font-family: 'Murecho', sans-serif;
+    }
+
+
+    #myp7{
+
+        
+        border: radius 5px;;
+        margin:auto;
+    }
+
+    table{
+        margin:auto;
+    }
+
+    #myp8{
+        text-align:center;
+    }

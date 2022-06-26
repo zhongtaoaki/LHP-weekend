@@ -1,0 +1,9 @@
+
+body {
+    background-image: url(b2.png);
+    background-size: cover;
+    padding: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Orbitron', sans-serif;
+}

@@ -1,0 +1,60 @@
+body {
+    background-image: url(pic8.jpeg);
+    background-size: cover;
+    font-family: 'Murecho', sans-serif;
+    font-family: 'Potta One', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+}
+
+#myp {
+    color: rgb(83, 83, 87);
+    font-size:20px;
+    background-color: rgba(184, 232, 234, 0.5);
+}
+
+#myp3 {
+    color: rgb(217, 228, 237)
+    background-color:rgba(184, 232, 234,0.5);
+    border-style:dashed;
+    border-width:2px;
+    border-radius:5px;
+    border-color:rgb(224, 154, 74);
+    
+}
+
+#aku {
+    color: rgb(135, 62, 209);
+    font-size: 12vh;
+    position: relative;
+    right:150px;
+
+}
+
+#aku2 {
+    color: rgb(80, 159, 104);
+    font-size: 10vh;
+    position: relative;
+    left:100px;
+
+}
+
+#aku3 {
+    color: rgb(185, 233, 175);
+    font-size:12vh;
+    position: relative;
+    right:101px;
+}   
+
+#aku4 {
+    color: rgb(210, 171, 239);
+    font-size: 15vh;
+    position: relative;
+    left:100px;
+}
+
+#myp10{
+
+    color: bisque;
+}
